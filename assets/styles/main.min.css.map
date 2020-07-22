@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.min.css",
+	"sources": [
+		"main.min.sass"
+	],
+	"sourcesContent": [
+		"// main {\n//   background: linear-gradient(90deg,rgb(107, 102, 95),rgb(107, 102, 95))\n// }\n"
+	],
+	"names": [],
+	"mappings": ""
+}

@@ -1,14 +1,592 @@
-<section class="baby__container">
-<h1 class="name">POTATO TOMATO</h1>
-<div class="detail-wrappers "> <!-- <== insert boy or girl on day of-->
-<p class="day">IDK 0, 2020</p>
-<p class="weight">0 lbs 0 ounces</p>
-<p class="height">0inches</p>
-<div class="image-wrapper">
-<img src="https://gruffel.github.io/baby-turton/assets/images/kitty.jpg" /></div>
-<p></p>
+<section class="guess">
+<div class="baby__title-wrapper">
+  <h1>Baby Turton - Guesses</h1>
+  <div><p id="today"></p></div>
+  <div class="guess__team-container">
+    
+    
+    <div><p>Team Boy: 40</p></div>
+    <div><p>Team Girl: 36</p></div>
+  </div>
 </div>
- </section>
+  <div class="guess__container">
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Gina Turton</h2>
+      <p class="guess__date">Sep, 3, 2020</p>
+      <p class="guess__gender">Boy</p>
+      <p id="ginaturtontimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">John Turton</h2>
+      <p class="guess__date">Sep, 2, 2020</p>
+      <p class="guess__gender">Girl</p>
+      <p id="johnturtontimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Amy Nussbaum</h2>
+      <p class="guess__date">Sep, 9, 2020</p>
+      <p class="guess__gender">Boy</p>
+      <p id="amynussbaumtimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Reid Nussbaum</h2>
+      <p class="guess__date">Sep, 8, 2020</p>
+      <p class="guess__gender">Girl</p>
+      <p id="reidnussbaumtimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Andrew Paxson</h2>
+      <p class="guess__date">Aug, 29, 2020</p>
+      <p class="guess__gender">Girl</p>
+      <p id="andrewpaxsontimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Papa</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="papatimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Mason Bates</h2>
+      <p class="guess__date">Sep, 7, 2020</p>
+      <p class="guess__gender">Boy</p>
+      <p id="masonbatestimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Lizzy</h2>
+      <p class="guess__date">Aug, 29, 2020</p>
+      <p class="guess__gender">Girl</p>
+      <p id="lizzytimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Lauren</h2>
+      <p class="guess__date">Sep, 8, 2020</p>
+      <p class="guess__gender">Girl</p>
+      <p id="laurentimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Wyn Boerckel</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="wynboerckeltimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Kelli Boerckel</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="kelliboerckeltimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Ryan Corey</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="ryancoreytimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Levi Wheat</h2>
+      <p class="guess__date">Sep, 16, 2020</p>
+      <p class="guess__gender">Boy</p>
+      <p id="leviwheattimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Derek Volmer</h2>
+      <p class="guess__date">Aug, 29, 2020</p>
+      <p class="guess__gender">Girl</p>
+      <p id="derekvolmertimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Arthur Avery</h2>
+      <p class="guess__date">Aug, 26, 2020</p>
+      <p class="guess__gender">Girl</p>
+      <p id="arthuraverytimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Jessica Avery</h2>
+      <p class="guess__date">Aug, 29, 2020</p>
+      <p class="guess__gender">Girl</p>
+      <p id="jessicaaverytimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Andrew Nason</h2>
+      <p class="guess__date">Sep, 1, 2020</p>
+      <p class="guess__gender">Girl</p>
+      <p id="andrewnasontimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Megan Wheat</h2>
+      <p class="guess__date">Sep, 16, 2020</p>
+      <p class="guess__gender">Boy</p>
+      <p id="meganwheattimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Lyle</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="lyletimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Becky Phinney</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="beckyphinneytimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Aunt Sue</h2>
+      <p class="guess__date">Sep, 3, 2020</p>
+      <p class="guess__gender">Boy</p>
+      <p id="auntsuetimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Uncle Glen</h2>
+      <p class="guess__date">Sep, 2, 2020</p>
+      <p class="guess__gender">Boy</p>
+      <p id="uncleglentimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Joe Chapman</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="joechapmantimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Lisa Chapman</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="lisachapmantimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Linda Paxson</h2>
+      <p class="guess__date">Aug, 23, 2020</p>
+      <p class="guess__gender">Boy</p>
+      <p id="lindapaxsontimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Brenda Turton</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="brendaturtontimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Don Paxson</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="donpaxsontimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Andrea M</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="andreamtimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Philip M</h2>
+      <p class="guess__date">Aug, 25, 2020</p>
+      <p class="guess__gender">Boy</p>
+      <p id="philipmtimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">John F.</h2>
+      <p class="guess__date">Aug, 31, 2020</p>
+      <p class="guess__gender">Girl</p>
+      <p id="johnf.timeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Emily F.</h2>
+      <p class="guess__date">Sep, 2, 2020</p>
+      <p class="guess__gender">Girl</p>
+      <p id="emilyf.timeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Olivia F.</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="oliviaf.timeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Wyatt F.</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="wyattf.timeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Beth M.</h2>
+      <p class="guess__date">Sep, 3, 2020</p>
+      <p class="guess__gender">Boy</p>
+      <p id="bethm.timeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Daniel M.</h2>
+      <p class="guess__date">Aug, 30, 2020</p>
+      <p class="guess__gender">Girl</p>
+      <p id="danielm.timeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Diane Fahrenkrug</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="dianefahrenkrugtimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Khadi</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="khaditimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Donna Osenga</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="donnaosengatimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Mariyem</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="mariyemtimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Rachel Webb</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="rachelwebbtimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Judith Berky</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="judithberkytimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Emily Henard</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="emilyhenardtimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Sue Jackson</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="suejacksontimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Brenda Thompson</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="brendathompsontimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Dilara</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="dilaratimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Shaden</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="shadentimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Sarah Roth</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="sarahrothtimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Famida</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="famidatimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Chris Scifert</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="chrissciferttimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Kris Scifert</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="krissciferttimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Tofig Mammadov</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="tofigmammadovtimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Amy Mammadov</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="amymammadovtimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Amke</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="amketimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Shaden</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="shadentimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Aunt Nancy</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="auntnancytimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Great Aunt Sheryl</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="greatauntsheryltimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Rhonda</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="rhondatimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Wanda</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="wandatimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Becky Kath</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="beckykathtimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Great Aunt Marlene</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="greatauntmarlenetimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Aunt Linda</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="auntlindatimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Aunt Annette</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="auntannettetimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Liana Klien</h2>
+      <p class="guess__date">Jul, 4, 2020</p>
+      <p class="guess__gender">Girl</p>
+      <p id="lianaklientimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Katey Wolfe</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="kateywolfetimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Kara Hagan</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="karahagantimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Ellie F.</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="ellief.timeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Gary F.</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="garyf.timeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Meghan</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="meghantimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Brooke</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="brooketimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Jen</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="jentimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Jes</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="jestimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Nicole</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="nicoletimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Nolan</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="nolantimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Jenny</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="jennytimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Talitha</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="talithatimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Dee</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="deetimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__-theme guess__date-active">
+      <h2 class="guess__name"></h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender"></p>
+      <p id="timeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__-theme guess__date-active">
+      <h2 class="guess__name"></h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender"></p>
+      <p id="timeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__-theme guess__date-active">
+      <h2 class="guess__name"></h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender"></p>
+      <p id="timeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__-theme guess__date-active">
+      <h2 class="guess__name"></h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender"></p>
+      <p id="timeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__-theme guess__date-active">
+      <h2 class="guess__name"></h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender"></p>
+      <p id="timeLeft"></p>
+    </div>
+  
+  </div>
+</section>
+
+<script>
+  var date = new Date();
+  document.getElementById("today").innerHTML = date.toUTCString();
+
+
+</script>
 
 <style>
 
@@ -20,55 +598,91 @@
     font-family: "NotoCansTC";
     src: url("https://gruffel.github.io/baby-turton/assets/fonts/NotoSansTC-Light.otf");
   }
-  html{
-    background:url('https://gruffel.github.io/baby-turton/assets/images/geometric-leaves.png'), conic-gradient(#d5f0d9,#f2f2e1,#d5f0e7);
-    background-blend-mode:luminosity;
-  }
-  .baby__container{
-    max-width: 1250px;
-    margin: auto;
-  }
-.name{
-  font-size:6rem;
-  font-family:"IndieFlower";
-  margin: 1rem auto;
-  text-align:center;
 
+  @media only screen and (min-width: 400px) {
+
+  }
+  @media only screen and (min-width: 650px) {
+
+  }
+  @media only screen and (min-width: 768px) {
+    .guess__container{
+      display:grid;
+      grid: auto / 1fr 1fr 1fr;
+      grid-gap:.5rem;
+    }
+    .guess__team-container{
+      display:grid;
+      grid: auto / 1fr 1fr;
+      grid-gap:.5rem;
+    }
+  }
+  @media only screen and (min-width: 1200px) {
+
+  }
+html{
+  background:url('https://gruffel.github.io/baby-turton/assets/images/geometric-leaves.png'), conic-gradient(#d5f0d9,#f2f2e1,#d5f0e7);
+  background-blend-mode:luminosity;
 }
-.detail-wrappers{
+.guess{
+  /* background: linear-gradient(45deg,rgb(46, 54, 43),rgb(46, 54, 43)); */
+}
+.baby__title-wrapper{
+  max-width: 1250px;
   margin: 1rem auto;
   text-align:center;
+  background:#f2f0ed70;
   padding:.5rem;
   border-radius:10px;
-  box-shadow:1px 1px 5px rgba(0, 0, 0, 15%);
+  backdrop-filter:blur(5px);
+}
+
+.baby__title-wrapper h1{
+font-size:4rem;
+font-family:"IndieFlower";
+}
+.baby__title-wrapper p{
   font-family:"NotoCansTC";
 font-size:1.5rem;
 }
-
-.boy{
+.guess__container{
+  max-width: 1250px;
+  margin: auto;
+}
+.guess__card{
+  padding:.5rem;
+  border-radius:10px;
+  box-shadow:1px 1px 5px rgba(0, 0, 0, 15%);
+}
+.guess__Boy-theme{
   /* background: #cafaed; */
-  background: linear-gradient(90deg, #d5f0d9, #d5f0d9, #d5f0d9, #f2f0ed70, #f2f0ed30, #f2f0ed70, #d5f0d9, #d5f0d9, #d5f0d9);
+  background: linear-gradient(90deg, #d5f0d9, #d5f0d9, #d5f0d9, #f2f0ed70, #f2f0ed70);
   backdrop-filter:blur(5px);
   /* background: #c0ffee; */
 }
-.girl{
-  background: linear-gradient(90deg, #d5f0e7, #d5f0e7, #d5f0e7, #f2f0ed70, #f2f0ed30, #f2f0ed70, #d5f0e7, #d5f0e7, #d5f0e7);
+.guess__Girl-theme{
+  background: linear-gradient(90deg, #d5f0e7, #d5f0e7, #d5f0e7, #f2f0ed70, #f2f0ed70);
   backdrop-filter:blur(5px);
 }
-.day{
+.guess__date-active{
 
 }
-.weight{
-
+.guess__name{
+  font-family:"NotoCansTC";
+  margin:0;
+  padding:0;
 }
-.height{
-
+.guess__date{
+  font-family:"NotoCansTC";
+  font-size:1.5rem;
+  margin:0;
+  padding:0;
 }
-.image-wrapper img{
-max-width:650px;
-width:100%;
-padding:1rem;
-text-align:center;
+.guess__gender{
+  font-family:"IndieFlower";
+  margin:0;
+  padding:0;
+  font-size:1.75rem;
 }
-</style>
+  </style>
 

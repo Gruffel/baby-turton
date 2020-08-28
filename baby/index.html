@@ -5,8 +5,8 @@
   <div class="guess__team-container">
     
     
-    <div><p>Team Boy: 40</p></div>
-    <div><p>Team Girl: 36</p></div>
+    <div><p>Team Boy: 44</p></div>
+    <div><p>Team Girl: 39</p></div>
   </div>
 </div>
   <div class="guess__container">
@@ -382,13 +382,6 @@
       <p id="amketimeLeft"></p>
     </div>
   
-    <div class="guess__card guess__Girl-theme guess__date-active">
-      <h2 class="guess__name">Shaden</h2>
-      <p class="guess__date"></p>
-      <p class="guess__gender">Girl</p>
-      <p id="shadentimeLeft"></p>
-    </div>
-  
     <div class="guess__card guess__Boy-theme guess__date-active">
       <h2 class="guess__name">Aunt Nancy</h2>
       <p class="guess__date"></p>
@@ -543,18 +536,60 @@
       <p id="deetimeLeft"></p>
     </div>
   
-    <div class="guess__card guess__-theme guess__date-active">
-      <h2 class="guess__name"></h2>
-      <p class="guess__date"></p>
-      <p class="guess__gender"></p>
-      <p id="timeLeft"></p>
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Mike Regilio</h2>
+      <p class="guess__date">Aug, 29, 2020</p>
+      <p class="guess__gender">Boy</p>
+      <p id="mikeregiliotimeLeft"></p>
     </div>
   
-    <div class="guess__card guess__-theme guess__date-active">
-      <h2 class="guess__name"></h2>
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Eric Schuller</h2>
+      <p class="guess__date">Aug, 31, 2020</p>
+      <p class="guess__gender">Boy</p>
+      <p id="ericschullertimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Tim Helmuth</h2>
+      <p class="guess__date">Sep, 3, 2020</p>
+      <p class="guess__gender">Girl</p>
+      <p id="timhelmuthtimeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Emily Fe.</h2>
       <p class="guess__date"></p>
-      <p class="guess__gender"></p>
-      <p id="timeLeft"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="emilyfe.timeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Lindsey P.</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="lindseyp.timeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Girl-theme guess__date-active">
+      <h2 class="guess__name">Megan T.</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Girl</p>
+      <p id="megant.timeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Matt B.</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="mattb.timeLeft"></p>
+    </div>
+  
+    <div class="guess__card guess__Boy-theme guess__date-active">
+      <h2 class="guess__name">Shannon D.</h2>
+      <p class="guess__date"></p>
+      <p class="guess__gender">Boy</p>
+      <p id="shannond.timeLeft"></p>
     </div>
   
     <div class="guess__card guess__-theme guess__date-active">
@@ -599,27 +634,6 @@
     src: url("https://gruffel.github.io/baby-turton/assets/fonts/NotoSansTC-Light.otf");
   }
 
-  @media only screen and (min-width: 400px) {
-
-  }
-  @media only screen and (min-width: 650px) {
-
-  }
-  @media only screen and (min-width: 768px) {
-    .guess__container{
-      display:grid;
-      grid: auto / 1fr 1fr 1fr;
-      grid-gap:.5rem;
-    }
-    .guess__team-container{
-      display:grid;
-      grid: auto / 1fr 1fr;
-      grid-gap:.5rem;
-    }
-  }
-  @media only screen and (min-width: 1200px) {
-
-  }
 html{
   background:url('https://gruffel.github.io/baby-turton/assets/images/geometric-leaves.png'), conic-gradient(#d5f0d9,#f2f2e1,#d5f0e7);
   background-blend-mode:luminosity;
@@ -646,6 +660,8 @@ font-family:"IndieFlower";
 font-size:1.5rem;
 }
 .guess__container{
+  display:grid;
+  grid: auto / 1fr;
   max-width: 1250px;
   margin: auto;
 }
@@ -683,6 +699,28 @@ font-size:1.5rem;
   margin:0;
   padding:0;
   font-size:1.75rem;
+}
+@media only screen and (min-width: 400px) {
+
+}
+@media only screen and (min-width: 650px) {
+  .guess__container{
+    grid: auto / 1fr 1fr;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .guess__container{
+    grid: auto / 1fr 1fr 1fr;
+    grid-gap:.5rem;
+  }
+  .guess__team-container{
+    display:grid;
+    grid: auto / 1fr 1fr;
+    grid-gap:.5rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+
 }
   </style>
 
